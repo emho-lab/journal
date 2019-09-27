@@ -4,7 +4,7 @@ permalink: "/about/"
 layout: default
 ---
 
-## This place is a collection of thoughts about freelance life, industry, tests and more.\
-My name is Emmanuel Hourquet, I'm a designer, doer, coder and thinker.
+## This place is a collection of thoughts about freelance life, industry, tests and more.
+### My name is Emmanuel Hourquet, I'm a designer, doer, coder and thinker.
 
 ## ![Hi.png](/uploads/Hi.png)
