@@ -23,7 +23,7 @@ body {
     background-color: $background;
     color:$blue;
     font-weight: 300;
-    line-height: 1.3;
+    line-height: 1.2;
     font-family: $typography, Arial;
     max-width: 780px;
     margin:80px auto 80px auto;
@@ -97,4 +97,21 @@ div.logo {
 
   header a {
     margin: 20px;
+  }
+
+
+  div.post {
+
+    h3 {
+    margin-top: 80px;
+    }
+
+    p {
+    max-width: 540px;
+    margin-bottom: 40px;
+    }
+
+    img {
+        max-width: 780px;
+    }
   }
