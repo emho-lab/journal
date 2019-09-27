@@ -17,8 +17,8 @@ defaults:
 email: emmanuel@emho.studio
 description: A blog collecting ideas, tests, toughts and general freelance life and
   founds.
-baseurl: ''
-url: ''
+baseurl: 
+url: 
 twitter_username: 
 github_username: 
 theme: minima
