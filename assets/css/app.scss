@@ -84,7 +84,7 @@ a {
     text-decoration: none;
     color: $blue;
     display: inline-block;
-    margin: 0 0 0 0;
+    margin: 0 0 0 40px;
 }
 
 div.circle {
@@ -127,9 +127,8 @@ div.logo {
 
   div.blog-posts {
 
-
     img {
-    
         max-width: 400px;
     }
+
   }
