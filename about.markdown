@@ -4,4 +4,6 @@ permalink: "/about/"
 layout: default
 ---
 
-## About emho
+## This place is a collection of thoughts about freelance life, industry, tests and more.
+
+## ![Hi.png](/uploads/Hi.png)

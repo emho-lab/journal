@@ -74,6 +74,7 @@ img {
 
 p.read-more {
     font-weight:700;
+    padding-bottom: 50px;
 }
 
 div.blog-posts{
@@ -123,4 +124,12 @@ div.logo {
     img {
         max-width: 780px;
     }
+  }
+
+  div.blog-posts {
+
+    img {
+        max-width: 400px;
+    }
+
   }

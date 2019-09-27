@@ -1,6 +1,7 @@
 ---
 title: Everybody wears Supreme
 date: 2019-09-26 00:00:00 Z
+image: "/uploads/IMG_1180.PNG"
 excerpt: bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
   bla bla bla bla bla bla
 ---
