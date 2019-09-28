@@ -26,7 +26,7 @@ body {
     line-height: 1.2;
     font-family: $typography, Arial;
     max-width: 780px;
-    margin:80px auto 80px auto;
+    margin:80px auto 0 auto;
 }
 
 h1 {
@@ -54,7 +54,7 @@ justify-content: space-between;
 
 
 section {
-    margin: 40px 0 0 0;
+    margin: 0 0 0 0;
 }
 
 nav a {
@@ -71,6 +71,8 @@ border-bottom: 3px solid $red;
 img {
  max-width: 780px;   
 }
+
+
 
 p.read-more {
     font-weight:700;
@@ -105,7 +107,7 @@ div.logo {
   div.post {
 
     h3 {
-    margin-top: 80px;
+    margin-top: 0px;
     }
 
     p {
