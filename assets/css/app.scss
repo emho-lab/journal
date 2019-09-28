@@ -1,17 +1,24 @@
 ---
 ---
 
-@import url('https://fonts.googleapis/css?family=Roboto:300,300i,700');
 
 @font-face {
+    font-family: Raisonne Light;
+   
+  
+    src: url(assets/fonts/raisonne-light.woff)
+  }
+  
+  @font-face {
     font-family: Raisonne Regular;
-    src: url(raisonne-regular.woff);
+    src: url(assets/fonts/raisonne-regular.woff);
   }
   
   @font-face {
     font-family: Raisonne Demibold;
-    src: url(raisonne-demibold.woff);
+    src: url(assets/fonts/raisonne-demibold.woff);
   }
+  
 
 
 $background:#f2f1ef;
