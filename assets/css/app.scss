@@ -162,7 +162,7 @@ div.logo {
 }
 
 /* ------------ PHONE ------------ */
-@media (max-width: 420px) {
+@media (max-width: 400px) {
   
   body {
     
@@ -173,7 +173,7 @@ div.logo {
 
 header {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: center;
   justify-content: space-between;
 }
