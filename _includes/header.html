@@ -1,14 +1,18 @@
 <header>
 
-<a href="https://www.emho.studio">
-    <div class="logo">
-        <img src="/assets/images/flag.svg"
-    </div>
-</a>
-      
-<nav>
+<div>
 <a href="/"{% if page.url == "/" %} class="selected" {% endif %}>Home</a>
-<a href="/about/" {% if page.url == "/about/" %} class="selected" {% endif %}>About</a>        
-</nav>
+</div>
+
+<div>
+<h1>
+<img src="/assets/images/flag.svg">
+</h1>
+</div>
+
+<div>
+<a href="/about/" {% if page.url == "/about/" %} class="selected" {% endif %}>About</a> 
+</div>
+
 
 </header>
