@@ -5,17 +5,17 @@
     font-family: Raisonne Light;
    
   
-    src: url(assets/fonts/raisonne-light.woff)
+    src: url(/assets/fonts/raisonne-light.woff)
   }
   
   @font-face {
     font-family: Raisonne Regular;
-    src: url(assets/fonts/raisonne-regular.woff);
+    src: url(/assets/fonts/raisonne-regular.woff);
   }
   
   @font-face {
     font-family: Raisonne Demibold;
-    src: url(assets/fonts/raisonne-demibold.woff);
+    src: url(/assets/fonts/raisonne-demibold.woff);
   }
   
 
@@ -102,10 +102,7 @@ a {
 
 
 div.logo {
-    background-repeat: no-repeat;
     height: 400px;
-    width: 520px;
-    background-image: url(/assets/images/flag.svg);
   }
 
   header a {
@@ -136,53 +133,3 @@ div.logo {
     }
 
   }
-
-
-/* ------------ PHONE ------------ */
-@media (max-width: 400px) {
-  
-  body {
-    
-    max-width: 400px;
-    margin: 40px auto 0 auto;
-}
-
-
-header {
-  display: flex;
-  flex-wrap: nowrap;
-  align-items: center;
-  justify-content: space-between;
-}
-
-div.logo {
-  background-repeat: no-repeat;
-  height: 200px;
-  width: 350px;
-  background-image: url(/assets/images/flag.svg);
-}
-
-section {
-  margin: 40px 20px 20px 20px;
-}
-
-
-div.blog-posts img {
-  max-width: 350px;
-}
-
-
-h2 {
-  font-size: 30px;
-  font-weight: 700;
-}
-
-h3 {
-  font-size: 16px;
-  font-weight:400;
-}
-
-
-
-
-}
