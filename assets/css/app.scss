@@ -87,10 +87,9 @@ p.read-more {
 
 div.blog-posts {
     max-width: 540px;
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  
 
 }
 
