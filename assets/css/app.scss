@@ -23,7 +23,7 @@
 $background:#f2f1ef;
 $blue:#2454a6;
 $red:#e42759;
-$typography: Raisonne Regular;
+$typography: Raisonne;
 
 body {
     background-color: $background;
@@ -89,10 +89,7 @@ div.blog-posts {
     max-width: 540px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-column-gap: 40px;
-    grid-row-gap: 20px;
-  
-
+    grid-column-gap: 80px;
 }
 
 a {
