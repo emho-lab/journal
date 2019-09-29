@@ -1,26 +1,6 @@
 ---
 ---
 
-// Small tablets and large smartphones (landscape view)
-$screen-sm-min: 440px;
-
-// Large tablets and desktops
-$screen-xl-min: 1200px;
-
-
-// Small devices
-@mixin sm {
-  @media (min-width: #{$screen-sm-min}) {
-      @content;
-  }
-}
-
-// large devices
-@mixin xl {
-  @media (min-width: #{$screen-xl-min}) {
-      @content;
-  }
-}
 
 
 
@@ -54,16 +34,8 @@ body {
     font-weight: 300;
     line-height: 1.2;
     font-family: $typography;
-    
-    @include xl {
     max-width: 780px;
     margin:80px auto 0 auto;
-  }
-    // phone
-    @include sm {
-      max-width: 400px;
-    margin:40px auto 0 auto;
-  }
 }
 
 h1 {
