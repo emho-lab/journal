@@ -1,6 +1,20 @@
 ---
 ---
 
+
+// Small tablets and large smartphones (landscape view)
+$screen-sm-min: 440px;
+
+
+// Small devices
+@mixin sm {
+  @media (min-width: #{$screen-sm-min}) {
+      @content;
+  }
+}
+
+
+
 @font-face {
     font-family: Raisonne Light;
    
@@ -33,6 +47,11 @@ body {
     font-family: $typography;
     max-width: 780px;
     margin:80px auto 0 auto;
+    // phone
+    @include sm {
+      max-width: 400px;
+    margin:40px auto 0 auto;
+  }
 }
 
 h1 {
@@ -134,32 +153,6 @@ div.logo {
 
   }
 
-
-
-  /* ------------ max 1500px ------------ */
-@media (max-width: 1500px) {
-  .link {
-    height: 3vw;
-  }
-
-  img.prev1,
-  img.random,
-  img.next1 {
-    display: block;
-    height: 1vw;
-    margin-bottom: 0.4vw;
-  }
-  
-    .filters {
-  padding-left: 20px;
-  
-}
-  
-    .hero img {
-  height: 25vw;
-}
-  
-}
 
 /* ------------ PHONE ------------ */
 @media (max-width: 400px) {
