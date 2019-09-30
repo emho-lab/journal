@@ -110,6 +110,7 @@ div.blog-posts {
   @media screen and (max-width: $break-small) {
     display: flex;
     flex-wrap: nowrap;
+    align-items: center;
   }
 
 }
