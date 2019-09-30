@@ -54,16 +54,24 @@ h2 {
 h2 {
   @media screen and (max-width: $break-small) {
     font-family: $typography1;
-    font-size: 20px;
+    font-size: 24px;
     font-weight:700;
   }
    
 }
 
 h3 {
+
+  @media screen and (min-width: $break-large) {
     font-size: 24px;
     font-weight:400;
-}
+  }
+  @media screen and (max-width: $break-small) {
+    font-size: 16px;
+    font-weight:400;
+  }
+
+  }
 
 header {
 display: flex;
