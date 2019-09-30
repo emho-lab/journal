@@ -35,11 +35,12 @@ body {
     line-height: 1.2;
     font-family: $typography;
     max-width: 780px;
+    
     @media screen and (min-width: $break-large) {
     margin:80px auto 0 auto;}
 
     @media screen and (min-width: $break-mid) {
-      margin:10px;}
+      margin:margin:80px auto 0 auto;}
 
     @media screen and (max-width: $break-small) {
       margin:20px;}
