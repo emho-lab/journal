@@ -69,8 +69,13 @@ align-items: center;
 
 
 section {
-    margin: 0 0 0 0;
+
+  @media screen and (min-width: $break-large) {
     align-items: center;
+  }
+  @media screen and (max-width: $break-small) {
+    text-align: center;
+  }
 }
 
 a {
