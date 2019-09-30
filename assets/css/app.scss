@@ -25,6 +25,7 @@ $background:#f2f1ef;
 $blue:#2454a6;
 $red:#e42759;
 $typography: Raisonne Regular;
+$typography1: Raisonne Demibold;
 
 body {
     background-color: $background;
@@ -44,6 +45,7 @@ h1 {
 h2 {
 
   @media screen and (min-width: $break-large) {
+    font-family: $typography1;
     font-size: 40px;
     font-weight:700;
   }
@@ -51,6 +53,7 @@ h2 {
 
 h2 {
   @media screen and (max-width: $break-small) {
+    font-family: $typography1;
     font-size: 20px;
     font-weight:700;
   }
@@ -104,8 +107,8 @@ img {
 
 
 p.read-more {
-    font-weight:700;
-    padding-bottom: 50px;
+  font-family: $typography1;
+  padding-bottom: 50px;
 }
 
 
@@ -120,8 +123,7 @@ div.blog-posts {
     justify-content: center;
   }
   @media screen and (max-width: $break-small) {
-    display: flex;
-    flex-wrap: nowrap;
+    
     text-align: center;
   }
 
@@ -159,6 +161,9 @@ img.logo {
         max-width: 540px;
         margin-bottom: 40px;
       }
+    }
+
+    p {
       @media screen and (max-width: $break-small) {
         max-width: 300px;
         margin-bottom: 20px;
