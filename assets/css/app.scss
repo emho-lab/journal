@@ -19,7 +19,8 @@
   }
   
 
-
+$break-small: 320px;
+$break-large: 1200px;
 $background:#f2f1ef;
 $blue:#2454a6;
 $red:#e42759;
@@ -87,11 +88,21 @@ p.read-more {
     padding-bottom: 50px;
 }
 
+
+
+
+
 div.blog-posts {
+  @media screen and (min-width: $break-large) {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 80px;
     justify-content: center;
+  }
+  @media screen and (max-width: $break-small) {
+    display: flex;
+    flex-wrap: nowrap;
+  }
 
 }
 
@@ -139,17 +150,3 @@ img.logo {
 
   }
 
-
-
-
-
-  @media (max-width: 400px) {
-    
-    div.blog-posts {
-      display: flex;
-      flex-wrap: nowrap;
-      justify-content: center;
-  
-  }
-
-  }
