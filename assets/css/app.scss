@@ -20,7 +20,6 @@
   
 
 $break-small: 400px;
-
 $break-large: 1200px;
 $background:#f2f1ef;
 $blue:#2454a6;
@@ -246,10 +245,6 @@ img.logo {
       margin-bottom: 20px;
     }
 
-    @media screen and (min-width: $break-mid) {
-      max-width: 550px;
-      margin-bottom: 30px;
-    }
 
     @media screen and (min-width: $break-large) {
       max-width: 650px;
