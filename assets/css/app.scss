@@ -19,7 +19,7 @@
   }
   
 
-$break-small: 700px;
+$break-small: 400px;
 $break-large: 1200px;
 $background:#f2f1ef;
 $blue:#2454a6;
@@ -166,12 +166,12 @@ a {
 img.logo {
   @media screen and (min-width: $break-large) {
     margin-bottom: 80px;
-    width: 400px;
+    width: 20vw;
   }
 
   @media screen and (max-width: $break-small) {
     margin-bottom: 0px;
-    width: 300px;
+    width: 10vw;
   }
 }
 
