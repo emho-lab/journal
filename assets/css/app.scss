@@ -140,14 +140,14 @@ section {
 }
 
 
-
-
 section {
 
   @media screen and (max-width: $break-small) {
     text-align: center;
   }
 }
+
+
 
 a {
     color: $blue;
@@ -162,9 +162,6 @@ border-bottom: 3px solid $red;
 
 
 
-img {
- max-width: 780px;   
-}
 
 
 p.read-more {
@@ -211,7 +208,7 @@ a {
 img.logo {
   @media screen and (min-width: $break-large) {
     margin-bottom: 80px;
-    width: 400px;
+    width: 500px;
   }
 
   @media screen and (min-width: $break-mid) {
