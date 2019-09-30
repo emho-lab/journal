@@ -147,13 +147,22 @@ a {
 
 
 img.logo {
-  margin-bottom: 80px;
-  width: 400px;  
+  @media screen and (min-width: $break-large) {
+    margin-bottom: 80px;
+    width: 400px;
   }
+
+  @media screen and (max-width: $break-small) {
+    margin-bottom: 0px;
+    width: 300px;
+  }
+}
 
 
   header a {
     margin: 20px;
+    font-size: 16px;
+
   }
 
 
