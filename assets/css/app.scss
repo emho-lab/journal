@@ -228,14 +228,14 @@ img.logo {
       }
     }
 
-    img {
+    h2 img {
 
       @media screen and (min-width: $break-large) {
         max-width: 780px;
     }
   }
 
-    img {
+    h2 img {
 
       @media screen and (min-width: $break-small) {
         max-width: 400px;
