@@ -20,7 +20,8 @@
   
 
 $break-small: 400px;
-$break-large: 900px;
+$break-mid: 700px;
+$break-large: 1200px;
 $background:#f2f1ef;
 $blue:#2454a6;
 $red:#e42759;
@@ -87,6 +88,13 @@ header {
     align-items: center;
   }
 
+  @media screen and (min-width: $break-mid) {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
   @media screen and (max-width: $break-small) {
     display: flex;
     flex-wrap: nowrap;
@@ -104,6 +112,11 @@ section {
   @media screen and (min-width: $break-large) {
     align-items: center;
   }
+}
+
+@media screen and (min-width: $break-mid) {
+  align-items: center;
+}
 }
 
 section {
@@ -147,6 +160,15 @@ div.blog-posts {
     grid-column-gap: 80px;
     justify-content: center;
   }
+
+  @media screen and (min-width: $break-mid) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 80px;
+    justify-content: center;
+  }
+
+
   @media screen and (max-width: $break-small) {
     
     text-align: center;
@@ -166,12 +188,17 @@ a {
 img.logo {
   @media screen and (min-width: $break-large) {
     margin-bottom: 80px;
-    width: 20vw;
+    width: 400px;
+  }
+
+  @media screen and (min-width: $break-mid) {
+    margin-bottom: 80px;
+    width: 400px;
   }
 
   @media screen and (max-width: $break-small) {
     margin-bottom: 0px;
-    width: 10vw;
+    width: 300px;
   }
 }
 
@@ -179,6 +206,12 @@ img.logo {
   header a {
 
     @media screen and (min-width: $break-large) {
+      margin: 20px;
+    font-size: 16px;
+    }
+
+
+    @media screen and (min-width: $break-mid) {
       margin: 20px;
     font-size: 16px;
     }
@@ -231,6 +264,11 @@ img.logo {
     @media screen and (max-width: $break-small) {
       max-width: 400px;
       margin-bottom: 20px;
+    }
+
+    @media screen and (min-width: $break-mid) {
+      max-width: 650px;
+      margin-bottom: 40px;
     }
 
     @media screen and (min-width: $break-large) {
