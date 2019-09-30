@@ -34,7 +34,12 @@ body {
     line-height: 1.2;
     font-family: $typography;
     max-width: 780px;
-    margin:80px auto 0 auto;
+    @media screen and (min-width: $break-large) {
+    margin:80px auto 0 auto;}
+
+    @media screen and (max-width: $break-small) {
+      margin:20px;}
+
 }
 
 h1 {
@@ -87,6 +92,7 @@ header {
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 40px;
   }
 
 }
