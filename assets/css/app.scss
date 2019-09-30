@@ -110,7 +110,7 @@ div.blog-posts {
   @media screen and (max-width: $break-small) {
     display: flex;
     flex-wrap: nowrap;
-    align-items: center;
+    text-align: center;
   }
 
 }
@@ -142,8 +142,15 @@ img.logo {
     }
 
     p {
-    max-width: 540px;
-    margin-bottom: 40px;
+
+      @media screen and (min-width: $break-large) {
+        max-width: 540px;
+        margin-bottom: 40px;
+      }
+      @media screen and (max-width: $break-small) {
+        max-width: 300px;
+        margin-bottom: 20px;
+      }
     }
 
     img {
