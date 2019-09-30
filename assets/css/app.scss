@@ -138,3 +138,18 @@ img.logo {
     }
 
   }
+
+
+
+
+
+  @media (max-width: 400px) {
+    
+    div.blog-posts {
+      display: flex;
+      flex-wrap: nowrap
+      justify-content: center;
+  
+  }
+
+  }
