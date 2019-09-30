@@ -23,7 +23,7 @@
 $background:#f2f1ef;
 $blue:#2454a6;
 $red:#e42759;
-$typography: Raisonne;
+$typography: Raisonne Regular;
 
 body {
     background-color: $background;
@@ -53,7 +53,6 @@ h3 {
 header {
 display: flex;
 flex-wrap: nowrap;
-align-items: center;
 justify-content: space-between;
 align-items: center;
 }
@@ -62,6 +61,7 @@ align-items: center;
 
 section {
     margin: 0 0 0 0;
+    align-items: center;
 }
 
 a {
@@ -75,10 +75,11 @@ text-decoration: none;
 border-bottom: 3px solid $red;
 }
 
+
+
 img {
  max-width: 780px;   
 }
-
 
 
 p.read-more {
