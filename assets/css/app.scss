@@ -19,7 +19,8 @@
   }
   
 
-$break-small: 700px;
+$break-small: 400px;
+
 $break-large: 1200px;
 $background:#f2f1ef;
 $blue:#2454a6;
@@ -34,11 +35,13 @@ body {
     line-height: 1.2;
     font-family: $typography;
     max-width: 780px;
+
     @media screen and (min-width: $break-large) {
     margin:80px auto 0 auto;}
 
+
     @media screen and (max-width: $break-small) {
-      margin:20px;}
+      margin: 10px;}
 
 }
 
@@ -56,6 +59,8 @@ h2 {
   }
 }
 
+
+
 h2 {
   @media screen and (max-width: $break-small) {
     font-family: $typography1;
@@ -71,6 +76,10 @@ h3 {
     font-size: 24px;
     font-weight:400;
   }
+
+  
+
+
   @media screen and (max-width: $break-small) {
     font-size: 16px;
     font-weight:400;
@@ -87,10 +96,9 @@ header {
     align-items: center;
   }
 
+
   @media screen and (max-width: $break-small) {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
+    
     align-items: center;
     margin-bottom: 40px;
   }
@@ -106,6 +114,9 @@ section {
   }
 }
 
+
+
+
 section {
 
   @media screen and (max-width: $break-small) {
@@ -113,10 +124,14 @@ section {
   }
 }
 
+
+
 a {
     color: $blue;
     text-decoration: none;  
 }
+
+
 
 a.selected, p a {
 color: $blue;
@@ -126,9 +141,6 @@ border-bottom: 3px solid $red;
 
 
 
-img {
- max-width: 780px;   
-}
 
 
 p.read-more {
@@ -147,10 +159,13 @@ div.blog-posts {
     grid-column-gap: 80px;
     justify-content: center;
   }
+
+
   @media screen and (max-width: $break-small) {
     
     text-align: center;
   }
+
 
 }
 
@@ -166,8 +181,9 @@ a {
 img.logo {
   @media screen and (min-width: $break-large) {
     margin-bottom: 80px;
-    width: 400px;
+    width: 500px;
   }
+
 
   @media screen and (max-width: $break-small) {
     margin-bottom: 0px;
@@ -182,6 +198,7 @@ img.logo {
       margin: 20px;
     font-size: 16px;
     }
+
 
     @media screen and (max-width: $break-small) {
       margin: 10px;
@@ -217,13 +234,9 @@ img.logo {
     }
   }
 
-  div.blog-posts {
 
-    img {
-        max-width: 400px;
-    }
 
-  }
+  
 
 
   div.blog-posts p {
@@ -233,9 +246,30 @@ img.logo {
       margin-bottom: 20px;
     }
 
+    @media screen and (min-width: $break-mid) {
+      max-width: 550px;
+      margin-bottom: 30px;
+    }
+
     @media screen and (min-width: $break-large) {
       max-width: 650px;
       margin-bottom: 40px;
+    }
+
+  }
+
+
+  a img {
+
+    @media screen and (max-width: $break-big) {
+      max-width: 700px;
+      
+    }
+
+
+    @media screen and (max-width: $break-small) {
+      max-width: 300px;
+      
     }
 
   }
