@@ -1,8 +1,6 @@
 <header>
 
-<div>
-<a href="/"{% if page.url == "/" %} class="selected" {% endif %}>Home</a>
-</div>
+
 
 <div>
 
@@ -10,6 +8,10 @@
 
 
 </div>
+
+<div>
+    <a href="/"{% if page.url == "/" %} class="selected" {% endif %}>Home</a>
+    </div>
 
 <div>
 <a href="/about/" {% if page.url == "/about/" %} class="selected" {% endif %}>About</a> 
