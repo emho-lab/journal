@@ -268,3 +268,17 @@ img.logo {
 
   }
 
+  div.post img {
+
+    @media screen and (max-width: $break-large) {
+      max-width: 600px;
+      
+    }
+
+
+    @media screen and (max-width: $break-small) {
+      max-width: 300px;
+      
+    }
+    
+  }
