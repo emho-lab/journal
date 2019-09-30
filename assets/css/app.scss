@@ -20,7 +20,7 @@
   
 
 $break-small: 400px;
-$break-mid: 700px;
+
 $break-large: 1200px;
 $background:#f2f1ef;
 $blue:#2454a6;
@@ -39,8 +39,6 @@ body {
     @media screen and (min-width: $break-large) {
     margin:80px auto 0 auto;}
 
-    @media screen and (min-width: $break-mid) {
-      margin:80px auto 0 auto;}
 
     @media screen and (max-width: $break-small) {
       margin: 10px;}
@@ -61,14 +59,7 @@ h2 {
   }
 }
 
-h2 {
 
-  @media screen and (min-width: $break-mid) {
-    font-family: $typography1;
-    font-size: 40px;
-    font-weight:700;
-  }
-}
 
 h2 {
   @media screen and (max-width: $break-small) {
@@ -86,10 +77,7 @@ h3 {
     font-weight:400;
   }
 
-  @media screen and (min-width: $break-mid) {
-    font-size: 24px;
-    font-weight:400;
-  }
+  
 
 
   @media screen and (max-width: $break-small) {
@@ -108,12 +96,6 @@ header {
     align-items: center;
   }
 
-  @media screen and (min-width: $break-mid) {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-  }
 
   @media screen and (max-width: $break-small) {
     
@@ -132,12 +114,7 @@ section {
   }
 }
 
-section {
 
-  @media screen and (min-width: $break-mid) {
-    align-items: center;
-  }
-}
 
 
 section {
@@ -181,17 +158,26 @@ div.blog-posts {
     justify-content: center;
   }
 
-  @media screen and (min-width: $break-mid) {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 20px;
-    justify-content: center;
-  }
 
 
   @media screen and (max-width: $break-small) {
     
     text-align: center;
+  }
+
+  a img {
+
+    @media screen and (max-width: $break-small) {
+      max-width: 400px;
+      
+    }
+
+
+    @media screen and (max-width: $break-small) {
+      max-width: 300px;
+      
+    }
+
   }
 
 }
@@ -211,10 +197,6 @@ img.logo {
     width: 500px;
   }
 
-  @media screen and (min-width: $break-mid) {
-    margin-bottom: 80px;
-    width: 400px;
-  }
 
   @media screen and (max-width: $break-small) {
     margin-bottom: 0px;
@@ -230,11 +212,6 @@ img.logo {
     font-size: 16px;
     }
 
-
-    @media screen and (min-width: $break-mid) {
-      margin: 20px;
-    font-size: 16px;
-    }
 
     @media screen and (max-width: $break-small) {
       margin: 10px;
@@ -270,24 +247,9 @@ img.logo {
     }
   }
 
-  a img {
 
-    @media screen and (max-width: $break-small) {
-      max-width: 400px;
-      
-    }
 
-    @media screen and (max-width: $break-mid) {
-      max-width: 300px;
-      
-    }
-
-    @media screen and (max-width: $break-small) {
-      max-width: 300px;
-      
-    }
-
-  }
+  
 
 
   div.blog-posts p {
