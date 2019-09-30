@@ -166,14 +166,14 @@ img.logo {
     p {
 
       @media screen and (min-width: $break-large) {
-        max-width: 540px;
+        max-width: 650px;
         margin-bottom: 40px;
       }
     }
 
     p {
       @media screen and (max-width: $break-small) {
-        max-width: 300px;
+        max-width: 500px;
         margin-bottom: 20px;
       }
     }
@@ -194,8 +194,15 @@ img.logo {
 
   div.blog-posts p {
 
-    max-width: 300px;
-    
+    @media screen and (max-width: $break-small) {
+      max-width: 400px;
+      margin-bottom: 20px;
+    }
+
+    @media screen and (min-width: $break-large) {
+      max-width: 650px;
+      margin-bottom: 40px;
+    }
 
   }
 
