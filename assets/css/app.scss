@@ -55,6 +55,7 @@ h2 {
     font-family: $typography1;
     font-size: 40px;
     font-weight:700;
+    line-height: 1;
   }
 }
 
@@ -63,8 +64,9 @@ h2 {
 h2 {
   @media screen and (max-width: $break-small) {
     font-family: $typography1;
-    font-size: 24px;
+    font-size: 26px;
     font-weight:700;
+    line-height: 1.1;
   }
    
 }
@@ -80,7 +82,7 @@ h3 {
 
 
   @media screen and (max-width: $break-small) {
-    font-size: 16px;
+    font-size: 20px;
     font-weight:400;
   }
 
@@ -144,7 +146,7 @@ border-bottom: 3px solid $red;
 
 p.read-more {
   font-family: $typography1;
-  padding-bottom: 50px;
+  padding-bottom: 40px;
 }
 
 
@@ -241,13 +243,13 @@ img.logo {
 
     @media screen and (max-width: $break-small) {
       max-width: 400px;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
     }
 
 
     @media screen and (min-width: $break-large) {
       max-width: 650px;
-      margin-bottom: 40px;
+      margin-bottom: 0px;
     }
 
   }
