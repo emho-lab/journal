@@ -8,7 +8,7 @@ excerpt: This week, I would like to quickly review "What is Universal Everything
 
 ## What is Universal Everything
 
-### Publisher: Unit Editions
+### Publisher: [Unit Editions](https://www.uniteditions.com/)
 
 ![Univ01.jpg](/uploads/Univ01.jpg)
 
