@@ -8,7 +8,14 @@ excerpt: This week, I would like to quickly review "What is Universal Everything
 
 ## What is Universal Everything
 
-### Publisher: [Unit Editions](https://www.uniteditions.com/)
+### Publisher: [Unit Editions](https://www.uniteditions.com/)<br>
+
+In new book "What Is Universal Everything?" Unit Editions publisher traces the studio’s 15 years of creating algorithmic artwork. Each book also comes with a unique, digitally generated cover.
+
+“I was one man in a shed in Sheffield, but I compensated by having the biggest possible name,” recalls Universal Everything founder Matt Pyke, of the studio’s humble start in life.
+Today, Pyke has pushed the studio to become a leading name in the field, creating groundbreaking design, artworks and installations.
+
+This book is a really great ressource full of Pyke own influences, inspirations and thoughts. A must read if you are into digital/motion field.
 
 ![Univ01.jpg](/uploads/Univ01.jpg)
 
@@ -17,10 +24,4 @@ excerpt: This week, I would like to quickly review "What is Universal Everything
 ![Univ03.jpg](/uploads/Univ03.jpg)
 
 ![Univ04.jpg](/uploads/Univ04.jpg)
-<br>
-In new book "What Is Universal Everything?" Unit Editions publisher traces the studio’s 15 years of creating algorithmic artwork. Each book also comes with a unique, digitally generated cover.
 
-“I was one man in a shed in Sheffield, but I compensated by having the biggest possible name,” recalls Universal Everything founder Matt Pyke, of the studio’s humble start in life.
-Today, Pyke has pushed the studio to become a leading name in the field, creating groundbreaking design, artworks and installations.
-
-This book is a really great ressource full of Pyke own influences, inspirations and thoughts. A must read if you are into digital/motion field.
