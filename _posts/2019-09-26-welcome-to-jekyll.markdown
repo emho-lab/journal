@@ -10,7 +10,12 @@ excerpt: This week, I would like to quickly review "What is Universal Everything
 
 ### Publisher: Unit Editions
 
-![IMG_1180.PNG](/uploads/IMG_1180.PNG)
+![Univ01.jpg](/uploads/Univ01.jpg)
+
+![Univ02.jpg](/uploads/Univ02.jpg)
+
+![Univ03.jpg](/uploads/Univ03.jpg)
+
+![Univ04.jpg](/uploads/Univ04.jpg)
 <br>
 xxxxxxxxxxxx
-
