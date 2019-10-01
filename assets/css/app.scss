@@ -137,7 +137,7 @@ a {
 a.selected, p a {
 color: $red;
 text-decoration: none;
-border-bottom: 3px solid $blue;
+/* border-bottom: 3px solid $blue; */
 }
 
 
@@ -147,6 +147,7 @@ border-bottom: 3px solid $blue;
 p.read-more {
   font-family: $typography1;
   padding-bottom: 40px;
+  color: $red;
 }
 
 
