@@ -1,5 +1,5 @@
 ---
-title: Book of the week
+title: Book of the month
 date: 2019-09-26 00:00:00 Z
 image: "/uploads/book@72x.png"
 excerpt: This week, I would like to quickly review "What is Universal Everything"
